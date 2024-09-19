@@ -15,10 +15,18 @@ body{
 }
 
 .icon_usuario{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 /*  */
+
+.btn_login{
+    background: #5c7745;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    align-items: center;
+}
 
 .titulo{
    
@@ -39,10 +47,7 @@ body{
     justify-content: center;
 }
 
-.linha-vertical {
-    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-    box-sizing: border-box;
-   }
+
 
   .formulario{
    
@@ -57,9 +62,9 @@ body{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   }
 
-.titulo_cadastro{
+/* .titulo_cadastro{
     text-align: center;
-}  
+}   */
 
 
 
