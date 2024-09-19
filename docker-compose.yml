@@ -1,0 +1,9 @@
+services:
+  webserver:
+    container_name: treino
+    build: .
+    ports:
+      - 8050:80
+    volumes:
+      - ./:/var/www/html
+    working_dir: /var/www/html
